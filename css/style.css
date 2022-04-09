@@ -11,10 +11,112 @@ body {
 .container{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 
-  max-width: 66.3333vw;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card {
+  max-width: 333px;
+}
+
+.content {
+  padding: 3rem 3.8rem;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.card-heading {
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.card-text {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+button {
+  margin-top: 4rem;
+  padding: 0.9rem 2rem;
+
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+
+  background-color: hsl(0, 0%, 95%);
+  outline: none;
+  border: none;
+  border-radius: 30px;
+}
+
+.btn-sedan{
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-sedan:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+  outline: solid;
+  outline-color: hsl(0, 0%, 95%);
+}
+
+.btn-suv{
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-suv:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+  outline: solid;
+  outline-color: hsl(0, 0%, 95%);
+}
+
+.btn-luxury{
+  color: hsl(179, 100%, 13%);
+}
+
+.btn-luxury:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+  outline: solid;
+  outline-color: hsl(0, 0%, 95%);
+}
+
+@media (max-width: 1100px) {
+  .container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .content {
+    padding: 3rem 3rem;
+  }
+
+  button {
+    margin-top: 1rem;
+  }
 }
 
 .attribution {
