@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/DeveloperDwarf/FrontEnd-Mentor/tree/main/order-summary-component-main)
-- Live Site URL: [Add live site URL here](https://DeveloperDwarf.github.io/)
+- Solution URL: [Add solution URL here](https://github.com/DeveloperDwarf/FMentor-3_column_preview_card)
+- Live Site URL: [Add live site URL here](https://developerdwarf.github.io/FMentor-3_column_preview_card/)
 
 ## My process
 
